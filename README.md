@@ -52,9 +52,12 @@ Note: Please do not change the dependcy versions in `package.json` file as older
 
 -   Web view of application
     ![Screenshot 2023-02-13 at 2 12 43 PM](https://user-images.githubusercontent.com/19689620/218421219-3e059571-75fb-49da-abc9-86ef5d7f0b7e.png)
+
 -   When Max 3 are slected
     ![Screenshot 2023-02-13 at 2 15 44 PM](https://user-images.githubusercontent.com/19689620/218421376-da80c6f7-a332-4cad-bab3-0102002ba768.png)
+
 -   Empty state
     ![Screenshot 2023-02-13 at 2 32 01 PM](https://user-images.githubusercontent.com/19689620/218421441-0ef54b20-9950-4cbb-8927-47222c77f0d9.png)
+
 -   Mobile View
     ![Screenshot 2023-02-13 at 2 17 35 PM](https://user-images.githubusercontent.com/19689620/218421501-218f2cf4-1261-4d53-b4c6-c702a7322df5.png)
