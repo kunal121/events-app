@@ -44,6 +44,8 @@ Note: Please do not change the dependcy versions in `package.json` file as older
 
 -   Atoms:- This folder contains all the common component and modular component used
 
+-  State is currently stored the data as it is coming from API but can be further optimised using save as key value pair in that case accessing those events will only take O(1), just in case if it is a large list this will help.
+
 ### Test Coverage
 
 -   All UI components and common components have unit test cases written with all major usecases covered.
