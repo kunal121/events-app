@@ -30,7 +30,7 @@ Note: Please do not change the dependcy versions in `package.json` file as older
 -   User won't be able to select events those have overlapping time ex: let's say user have selected event from 1:00PM to 2:00PM then user won't be able to select event from 1:30PM-2:30PM, Made some enhancements from initial requirement.
 -   App is just responsive and separate mobile view is not there.
 
-### Approach Taken [Most interesting Section 😜
+### Approach Taken 
 
 -   Event Context: - This file is exporting EventProvider and EventContext, EventProvider is responsible of providing context to the components wrapped inside this provider. EventContext can be used to access the desired things related to events in desired component.
 
@@ -51,10 +51,10 @@ Note: Please do not change the dependcy versions in `package.json` file as older
 ### Screenshot of different states
 
 -   Web view of application
-    [Screenshot-2023-02-13-at-2-12-43-PM.png](https://postimg.cc/F1TKKPg9)
+    ![Screenshot 2023-02-13 at 2 12 43 PM](https://user-images.githubusercontent.com/19689620/218421219-3e059571-75fb-49da-abc9-86ef5d7f0b7e.png)
 -   When Max 3 are slected
-    [Screenshot-2023-02-13-at-2-15-44-PM.png](https://postimg.cc/XZYHnYVN)
+    ![Screenshot 2023-02-13 at 2 15 44 PM](https://user-images.githubusercontent.com/19689620/218421376-da80c6f7-a332-4cad-bab3-0102002ba768.png)
 -   Empty state
-    [Screenshot-2023-02-13-at-2-32-01-PM.png](https://postimg.cc/CnL3ZppS)
+    ![Screenshot 2023-02-13 at 2 32 01 PM](https://user-images.githubusercontent.com/19689620/218421441-0ef54b20-9950-4cbb-8927-47222c77f0d9.png)
 -   Mobile View
-    [Screenshot-2023-02-13-at-2-17-35-PM.png](https://postimg.cc/xq8XLDdk)
+    ![Screenshot 2023-02-13 at 2 17 35 PM](https://user-images.githubusercontent.com/19689620/218421501-218f2cf4-1261-4d53-b4c6-c702a7322df5.png)
