@@ -3,7 +3,7 @@ import { EventList } from './components/eventList';
 import { SelectedEventList } from './components/selectedEventList';
 import './styles.css';
 
-const App = () => {
+const App: React.FC = () => {
     return (
         <EventProvider>
             <main className='app-container'>
