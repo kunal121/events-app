@@ -1,0 +1,22 @@
+.button-default {
+    border-radius: 5px;
+    margin-right: 20px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.button-default.primary {
+    background-color: #a6da94;
+    border-color: #a6da94;
+}
+
+.button-default.secondary {
+    background-color: #edbfbf;
+    border-color: #edbfbf;
+}
+
+.button-default:disabled {
+    background-color: #f6f6f6;
+    border-color: #f6f6f6;
+    pointer-events: none;
+}

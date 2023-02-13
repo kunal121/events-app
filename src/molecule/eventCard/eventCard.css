@@ -1,0 +1,49 @@
+.event-card-container {
+    height: 200px;
+    background-color: #c6dde7;
+    display: flex;
+    flex-direction: column;
+}
+
+.event-card-container--disabled {
+    background-color: #e8e8e8;
+}
+
+.highlighted-character {
+    font-size: xxx-large;
+    width: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.highlighted-character--border-right {
+    border-right: 3px solid black;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card-content {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-content-container {
+    display: flex;
+    height: 80%;
+}
+
+.event-card-footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.event-name {
+    font-weight: 600;
+}

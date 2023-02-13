@@ -1,0 +1,12 @@
+.card-container {
+    border-radius: 10px;
+    border: 2px thin black;
+    width: 45%;
+    margin: 10px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1024px) {
+    .card-container {
+        width: 100%;
+    }
+}

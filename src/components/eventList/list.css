@@ -1,0 +1,38 @@
+.list-container {
+    display: flex;
+    flex-direction: column;
+    border: 2px black solid;
+    width: 45%;
+    padding: 10px;
+    height: 85vh;
+    overflow: auto;
+    align-content: flex-start;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1024px) {
+    .list-container {
+        width: 90%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+.event-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.event-list-heading {
+    display: flex;
+    justify-content: center;
+}
+
+.loading-container {
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    display: flex;
+}
