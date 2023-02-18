@@ -20,6 +20,7 @@ export const EventProvider: React.FC<{ children: React.ReactNode }> = ({
     const [selectedEvents, setSelectedEvents] = useState<Event[]>([]);
     const [isLoading, setLoading] = useState(false);
 
+    /*End time should be greater than start time, startTime should be lesser than end time */
     const isEventConflicting = (startTime: string, endTime: string): boolean =>
         selectedEvents.some(
             (selectedEvent) =>
@@ -28,19 +29,25 @@ export const EventProvider: React.FC<{ children: React.ReactNode }> = ({
         );
 
     const selectEvent = (event: Event): void => {
-        setSelectedEvents([...selectedEvents, event]);
-        setEvents(
-            events.filter((currentEvent: Event) => currentEvent.id !== event.id)
+        setSelectedEvents((prevSelectedEvents) => [
+            ...prevSelectedEvents,
+            event,
+        ]);
+        setEvents((prevEvents) =>
+            prevEvents.filter(
+                (currentEvent: Event) => currentEvent.id !== event.id
+            )
         );
     };
 
     const removeEvent = (event: Event): void => {
-        setSelectedEvents(
-            selectedEvents.filter(
+        setSelectedEvents((prevSelectedEvents) =>
+            prevSelectedEvents.filter(
                 (selectedEvent: Event) => selectedEvent.id !== event.id
             )
         );
-        setEvents([...events, event]);
+
+        setEvents((prevEvents) => [...prevEvents, event]);
     };
 
     const isMaxEventSelected = selectedEvents.length === MAX_SELECTED_EVENT;
